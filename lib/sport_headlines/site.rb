@@ -21,6 +21,10 @@ class SportHeadlines::Site
     @@all
   end
 
+  def clear_articles
+    self.articles.clear
+  end
+
   def self.create_sites_from_hash
     SITES.each do |site, url|
       self.new(site, url)
