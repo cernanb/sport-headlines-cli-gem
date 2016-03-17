@@ -3,7 +3,6 @@ class SportHeadlines::Site
 
   SITES = {
         "ESPN" => "http://espn.go.com/",
-        "Sports Illustrated" => "http://www.si.com/",
         "Bleacher Report" => "http://bleacherreport.com/",
         "Pro Football Talk" => "http://profootballtalk.nbcsports.com/"
   }
